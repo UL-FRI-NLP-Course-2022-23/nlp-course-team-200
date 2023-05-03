@@ -1,6 +1,6 @@
-from src.NER.NerNltk import NerNltk
-from src.NER.NerStanza import NerStanza
-from src.NER.NerSpacy import NerSpacy
+from NER.NerNltk import NerNltk
+from NER.NerStanza import NerStanza
+from NER.NerSpacy import NerSpacy
 
 def ners_runner():
     ner = NerSpacy()
@@ -19,12 +19,9 @@ def ners_runner():
 
 
 if __name__ == "__main__":
-    ner = NerNltk()
+    ner = NerStanza()
     ner.initialize_tool()
     ner.run()
     precision, recall, f_measure = ner.corpora_performance()
     print("NLTK results")
     print(f"Precision, recall, f_measure:\t{precision} \t{recall} \t{f_measure}")
-
-
-

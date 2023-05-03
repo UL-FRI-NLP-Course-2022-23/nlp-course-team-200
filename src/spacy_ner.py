@@ -1,7 +1,7 @@
 import spacy
 from spacy import displacy
 
-from src.utils import get_fables, get_fable
+from utils import get_fables, get_fable
 
 # Get fables
 dataset = "aesop"

@@ -1,4 +1,5 @@
-from src.NER.NER import NER
+from allennlp.predictors.predictor import Predictor
+from NER.NER import NER
 import nltk
 
 
@@ -13,7 +14,15 @@ class NerNltk(NER):
     def initialize_tool(self):
         self.NER = None
 
+        if self.coreference_resolution:
+            model_url = "https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz"
+            self.cr_predictor = Predictor.from_path(model_url)
+
     def detect_entities(self, document):
+
+        if self.coreference_resolution:
+            document = self.cr_predictor.coref_resolved(document)
+
         detected_entities = set()
         for sent in nltk.sent_tokenize(document):
             for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):

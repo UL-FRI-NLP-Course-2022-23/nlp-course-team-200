@@ -1,5 +1,6 @@
-from src.NER.NER import NER
+from allennlp.predictors.predictor import Predictor
 import spacy
+from NER.NER import NER
 
 
 class NerSpacy(NER):
@@ -8,7 +9,15 @@ class NerSpacy(NER):
 
     def initialize_tool(self):
         self.NER = spacy.load("en_core_web_sm")
+        
+        if self.coreference_resolution:
+            model_url = "https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz"
+            self.cr_predictor = Predictor.from_path(model_url)
 
     def detect_entities(self, document):
+
+        if self.coreference_resolution:
+            document = self.cr_predictor.coref_resolved(document)
+
         doc = self.NER(document)
         return list(set(ent.text.lower() for ent in doc.ents if ent.label_ == 'PERSON'))

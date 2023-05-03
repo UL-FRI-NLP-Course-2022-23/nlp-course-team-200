@@ -2,7 +2,7 @@ import time
 
 from tqdm import tqdm
 
-from src.utils import get_fables, get_fable
+from utils import get_fables, get_fable
 
 
 class NER:
@@ -14,6 +14,7 @@ class NER:
         self.num_of_documents = 0
         self.ner_res = None
         self.computation_time = 0.0
+        self.coreference_resolution = True
         self.get_corpora()
 
     def tool_defined(self):
