@@ -40,8 +40,7 @@ class NER:
         start_time = time.time()
         for i in tqdm(range(self.num_of_documents)):
             document, annotated_entities = get_fable(self.dataset, self.corpora[i])
-            doc = self.NER(document)
-            detected_entities = self.detect_entities(doc)
+            detected_entities = self.detect_entities(document)
             self.ner_res[i] = NerRes(document, annotated_entities, detected_entities)
         self.computation_time = time.time() - start_time
 

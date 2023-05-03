@@ -9,6 +9,7 @@ class NerStanza(NER):
     def initialize_tool(self):
         self.NER = stanza.Pipeline("en", processors="tokenize,ner")
 
-    def detect_entities(self, doc):
+    def detect_entities(self, document):
+        doc = self.NER(document)
         return list(set(ent.text.lower() for ent in doc.ents if ent.type == 'PERSON'))
 
