@@ -2,5 +2,5 @@ stanza~=1.5.0
 spacy~=3.5.2
 tqdm~=4.65.0
 nltk~=3.8.1
-allennlp==2.10.1
-allennlp-models==2.10.1
+allennlp~=2.10.1
+allennlp-models~=2.10.1
