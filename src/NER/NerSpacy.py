@@ -4,7 +4,7 @@ from NER.NER import NER
 
 
 class NerSpacy(NER):
-    def __init__(self, tool='stanza'):
+    def __init__(self, tool='spacy'):
         super().__init__(tool=tool)
 
     def initialize_tool(self):

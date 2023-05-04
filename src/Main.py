@@ -19,9 +19,10 @@ def ners_runner():
 
 
 if __name__ == "__main__":
-    ner = NerStanza()
+    ner = NerSpacy()
     ner.initialize_tool()
     ner.run()
+    ner.save_results()
     precision, recall, f_measure = ner.corpora_performance()
     print("NLTK results")
     print(f"Precision, recall, f_measure:\t{precision} \t{recall} \t{f_measure}")

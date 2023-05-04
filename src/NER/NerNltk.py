@@ -4,7 +4,7 @@ import nltk
 
 
 class NerNltk(NER):
-    def __init__(self, tool='stanza'):
+    def __init__(self, tool='nltk'):
         super().__init__(tool=tool)
         nltk.download('punkt')
         nltk.download('averaged_perceptron_tagger')

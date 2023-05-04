@@ -1,4 +1,4 @@
-import time
+import time, json, os
 
 from tqdm import tqdm
 
@@ -42,7 +42,7 @@ class NER:
         for i in tqdm(range(self.num_of_documents)):
             document, annotated_entities = get_fable(self.dataset, self.corpora[i])
             detected_entities = self.detect_entities(document)
-            self.ner_res[i] = NerRes(document, annotated_entities, detected_entities)
+            self.ner_res[i] = NerRes(self.corpora[i], document, annotated_entities, detected_entities)
         self.computation_time = time.time() - start_time
 
     def sum_outcomes(self):
@@ -63,8 +63,20 @@ class NER:
         return precision, recall, f_measure
 
     def save_results(self):
-        # TODO
-        pass
+        results_file = os.path.join("results", f"{self.dataset}_{self.tool}{'_CR' if self.coreference_resolution else ''}.json")
+
+        results = {ner_res.title: {"annotations": ner_res.annotations,
+                                   "detections": ner_res.detected_annotations,
+                                   "tp": ner_res.tp,
+                                   "fp": ner_res.fp,
+                                   "fn": ner_res.fn} for ner_res in self.ner_res}
+
+        # Serializing json
+        json_object = json.dumps(results, indent=4)
+        
+        # Writing to sample.json
+        with open(results_file, "w") as out_file:
+            out_file.write(json_object)
 
     def visualize_result(self):
         # TODO
@@ -88,7 +100,8 @@ class NER:
 
 
 class NerRes:
-    def __init__(self, document=None, annotations=None, detected_annotations=None):
+    def __init__(self, title=None, document=None, annotations=None, detected_annotations=None):
+        self.title = title
         self.document = document
         self.annotations = annotations
         self.detected_annotations = detected_annotations
