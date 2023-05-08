@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "lion",
+        "mouse"
+    ],
+    "protagonist": "mouse",
+    "antagonist": "",
+    "sentiments": {
+        "lion": {
+            "lion": 0,
+            "mouse": 1
+        },
+        "mouse": {
+            "mouse": 0,
+            "lion": 1
+        }
+    }
+}

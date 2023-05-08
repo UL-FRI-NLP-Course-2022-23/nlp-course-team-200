@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "countrymen"
+    ],
+    "protagonist": "countrymen",
+    "antagonist": "",
+    "sentiments": {
+        "countrymen": {
+            "countrymen": 0
+        }
+    }
+}

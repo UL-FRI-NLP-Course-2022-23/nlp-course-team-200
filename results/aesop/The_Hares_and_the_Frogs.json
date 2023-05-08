@@ -1,0 +1,26 @@
+{
+    "characters": [
+        "frogs",
+        "hares",
+        "horses"
+    ],
+    "protagonist": "frogs",
+    "antagonist": "",
+    "sentiments": {
+        "frogs": {
+            "frogs": 0,
+            "hares": 0,
+            "horses": 0
+        },
+        "hares": {
+            "hares": 0,
+            "frogs": 0,
+            "horses": -1
+        },
+        "horses": {
+            "horses": 0,
+            "frogs": 0,
+            "hares": -1
+        }
+    }
+}

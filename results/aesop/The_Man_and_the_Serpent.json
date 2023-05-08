@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "countryman",
+        "farmer"
+    ],
+    "protagonist": "countryman",
+    "antagonist": "",
+    "sentiments": {
+        "countryman": {
+            "countryman": 0,
+            "farmer": -1
+        },
+        "farmer": {
+            "farmer": 0,
+            "countryman": -1
+        }
+    }
+}

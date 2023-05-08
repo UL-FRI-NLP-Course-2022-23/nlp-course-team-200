@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "mouse"
+    ],
+    "protagonist": "mouse",
+    "antagonist": "",
+    "sentiments": {
+        "mouse": {
+            "mouse": 0
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "characters": [
+        "flatter",
+        "queen",
+        "crow",
+        "fox"
+    ],
+    "protagonist": "fox",
+    "antagonist": "",
+    "sentiments": {
+        "flatter": {
+            "flatter": 0,
+            "queen": 0,
+            "crow": 0,
+            "fox": 0
+        },
+        "queen": {
+            "queen": 0,
+            "flatter": 0,
+            "crow": 0,
+            "fox": 0
+        },
+        "crow": {
+            "crow": 0,
+            "flatter": 0,
+            "queen": 0,
+            "fox": 1
+        },
+        "fox": {
+            "fox": 0,
+            "flatter": 0,
+            "queen": 0,
+            "crow": 1
+        }
+    }
+}

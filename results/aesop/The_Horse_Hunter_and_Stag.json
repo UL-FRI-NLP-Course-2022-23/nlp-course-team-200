@@ -1,0 +1,26 @@
+{
+    "characters": [
+        "hunter",
+        "horse",
+        "stag"
+    ],
+    "protagonist": "horse",
+    "antagonist": "",
+    "sentiments": {
+        "hunter": {
+            "hunter": 0,
+            "horse": -1,
+            "stag": 0
+        },
+        "horse": {
+            "horse": 0,
+            "hunter": -1,
+            "stag": 0
+        },
+        "stag": {
+            "stag": 0,
+            "hunter": 0,
+            "horse": 0
+        }
+    }
+}

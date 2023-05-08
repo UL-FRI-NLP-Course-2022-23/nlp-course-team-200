@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "wolf"
+    ],
+    "protagonist": "wolf",
+    "antagonist": "",
+    "sentiments": {
+        "wolf": {
+            "wolf": 0
+        }
+    }
+}

@@ -41,8 +41,8 @@ class NER:
         start_time = time.time()
         for i in tqdm(range(self.num_of_documents)):
             document, annotated_entities = get_fable(self.dataset, self.corpora[i])
-            detected_entities = self.detect_entities(document)
-            self.ner_res[i] = NerRes(self.corpora[i], document, annotated_entities, detected_entities)
+            detected_entities, positions = self.detect_entities(document)
+            self.ner_res[i] = NerRes(self.corpora[i], document, annotated_entities, detected_entities, positions)
         self.computation_time = time.time() - start_time
 
     def sum_outcomes(self):
@@ -67,6 +67,7 @@ class NER:
 
         results = {ner_res.title: {"annotations": ner_res.annotations,
                                    "detections": ner_res.detected_annotations,
+                                   "positions": ner_res.detected_annotations_positions,
                                    "tp": ner_res.tp,
                                    "fp": ner_res.fp,
                                    "fn": ner_res.fn} for ner_res in self.ner_res}
@@ -77,6 +78,16 @@ class NER:
         # Writing to sample.json
         with open(results_file, "w") as out_file:
             out_file.write(json_object)
+        
+        print(f"Saved results to {results_file}.")
+
+    def load_results(self):
+        results_file = open(os.path.join("results", f"{self.dataset}_{self.tool}{'_CR' if self.coreference_resolution else ''}.json"))
+        results = json.load(results_file)
+
+        for i, r in enumerate(results):
+            document, annotated_entities = get_fable(self.dataset, r)
+            self.ner_res[i] = NerRes(r, document, annotated_entities, results[r]["detections"], results[r]["positions"])
 
     def visualize_result(self):
         # TODO
@@ -100,11 +111,12 @@ class NER:
 
 
 class NerRes:
-    def __init__(self, title=None, document=None, annotations=None, detected_annotations=None):
+    def __init__(self, title=None, document=None, annotations=None, detected_annotations=None, detected_annotations_positions=None):
         self.title = title
         self.document = document
         self.annotations = annotations
         self.detected_annotations = detected_annotations
+        self.detected_annotations_positions = detected_annotations_positions
         self.num_of_detected_annotations = len(detected_annotations)
         self.num_of_annotations = len(annotations)
         self.tp = sum([c in self.detected_annotations for c in self.annotations])

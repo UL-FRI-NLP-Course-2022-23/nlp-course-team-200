@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "friends",
+        "hare"
+    ],
+    "protagonist": "hare",
+    "antagonist": "",
+    "sentiments": {
+        "friends": {
+            "friends": 0,
+            "hare": 0
+        },
+        "hare": {
+            "hare": 0,
+            "friends": 0
+        }
+    }
+}

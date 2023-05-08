@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "jays",
+        "jay"
+    ],
+    "protagonist": "jay",
+    "antagonist": "",
+    "sentiments": {
+        "jays": {
+            "jays": 0,
+            "jay": -1
+        },
+        "jay": {
+            "jay": 0,
+            "jays": -1
+        }
+    }
+}

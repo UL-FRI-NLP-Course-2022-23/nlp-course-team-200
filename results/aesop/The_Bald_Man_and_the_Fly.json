@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "fly",
+        "man"
+    ],
+    "protagonist": "man",
+    "antagonist": "",
+    "sentiments": {
+        "fly": {
+            "fly": 0,
+            "man": -1
+        },
+        "man": {
+            "man": 0,
+            "fly": -1
+        }
+    }
+}

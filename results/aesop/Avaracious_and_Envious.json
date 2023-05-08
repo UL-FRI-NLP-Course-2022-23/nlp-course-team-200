@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "vices"
+    ],
+    "protagonist": "vices",
+    "antagonist": "",
+    "sentiments": {
+        "vices": {
+            "vices": 0
+        }
+    }
+}

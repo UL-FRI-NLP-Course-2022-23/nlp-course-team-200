@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "mosquitoes",
+        "fox"
+    ],
+    "protagonist": "fox",
+    "antagonist": "",
+    "sentiments": {
+        "mosquitoes": {
+            "mosquitoes": 0,
+            "fox": 1
+        },
+        "fox": {
+            "fox": 0,
+            "mosquitoes": 1
+        }
+    }
+}

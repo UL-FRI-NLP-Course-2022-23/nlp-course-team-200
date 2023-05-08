@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "white",
+        "\u2019s"
+    ],
+    "protagonist": "white",
+    "antagonist": "",
+    "sentiments": {
+        "white": {
+            "white": 0,
+            "\u2019s": 0
+        },
+        "\u2019s": {
+            "\u2019s": 0,
+            "white": 0
+        }
+    }
+}

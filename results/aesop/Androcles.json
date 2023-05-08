@@ -1,0 +1,26 @@
+{
+    "characters": [
+        "the",
+        "lion",
+        "androcles"
+    ],
+    "protagonist": "androcles",
+    "antagonist": "",
+    "sentiments": {
+        "the": {
+            "the": 0,
+            "lion": 0,
+            "androcles": 0
+        },
+        "lion": {
+            "lion": 0,
+            "the": 0,
+            "androcles": -1
+        },
+        "androcles": {
+            "androcles": 0,
+            "the": 0,
+            "lion": -1
+        }
+    }
+}

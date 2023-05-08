@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "fisher",
+        "nay"
+    ],
+    "protagonist": "fisher",
+    "antagonist": "",
+    "sentiments": {
+        "fisher": {
+            "fisher": 0,
+            "nay": 1
+        },
+        "nay": {
+            "nay": 0,
+            "fisher": 1
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "characters": [
+        "wolf",
+        "nay",
+        "warra"
+    ],
+    "protagonist": "wolf",
+    "antagonist": "",
+    "sentiments": {
+        "wolf": {
+            "wolf": 0,
+            "nay": -1,
+            "warra": 0
+        },
+        "nay": {
+            "nay": 0,
+            "wolf": -1,
+            "warra": 0
+        },
+        "warra": {
+            "warra": 0,
+            "wolf": 0,
+            "nay": 0
+        }
+    }
+}

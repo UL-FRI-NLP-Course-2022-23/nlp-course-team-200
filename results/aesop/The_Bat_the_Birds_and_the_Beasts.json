@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "bat"
+    ],
+    "protagonist": "bat",
+    "antagonist": "",
+    "sentiments": {
+        "bat": {
+            "bat": 0
+        }
+    }
+}

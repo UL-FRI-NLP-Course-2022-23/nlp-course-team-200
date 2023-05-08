@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "fisher"
+    ],
+    "protagonist": "fisher",
+    "antagonist": "",
+    "sentiments": {
+        "fisher": {
+            "fisher": 0
+        }
+    }
+}

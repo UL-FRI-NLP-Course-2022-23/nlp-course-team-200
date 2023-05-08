@@ -1,0 +1,36 @@
+{
+    "characters": [
+        "bodybegan",
+        "belly",
+        "hands",
+        "mouth"
+    ],
+    "protagonist": "belly",
+    "antagonist": "",
+    "sentiments": {
+        "bodybegan": {
+            "bodybegan": 0,
+            "belly": 0,
+            "hands": -1,
+            "mouth": 0
+        },
+        "belly": {
+            "belly": 0,
+            "bodybegan": 0,
+            "hands": 0,
+            "mouth": 1
+        },
+        "hands": {
+            "hands": 0,
+            "bodybegan": -1,
+            "belly": 0,
+            "mouth": 0
+        },
+        "mouth": {
+            "mouth": 0,
+            "bodybegan": 0,
+            "belly": 1,
+            "hands": 0
+        }
+    }
+}

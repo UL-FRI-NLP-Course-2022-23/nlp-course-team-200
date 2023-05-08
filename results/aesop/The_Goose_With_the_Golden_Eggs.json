@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "goose"
+    ],
+    "protagonist": "goose",
+    "antagonist": "",
+    "sentiments": {
+        "goose": {
+            "goose": 0
+        }
+    }
+}

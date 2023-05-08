@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "buffoon"
+    ],
+    "protagonist": "buffoon",
+    "antagonist": "",
+    "sentiments": {
+        "buffoon": {
+            "buffoon": 0
+        }
+    }
+}

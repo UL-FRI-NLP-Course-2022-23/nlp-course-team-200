@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "farmer",
+        "lapdog"
+    ],
+    "protagonist": "farmer",
+    "antagonist": "",
+    "sentiments": {
+        "farmer": {
+            "farmer": 0,
+            "lapdog": -1
+        },
+        "lapdog": {
+            "lapdog": 0,
+            "farmer": -1
+        }
+    }
+}

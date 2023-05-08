@@ -1,0 +1,12 @@
+{
+    "characters": [
+        "nap"
+    ],
+    "protagonist": "nap",
+    "antagonist": "",
+    "sentiments": {
+        "nap": {
+            "nap": 0
+        }
+    }
+}
