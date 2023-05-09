@@ -29,4 +29,4 @@ class NerNltk(NER):
                 if hasattr(chunk, 'label'):
                     if chunk.label() == 'PERSON':
                         detected_entities.add(chunk[0][0].lower())
-        return list(detected_entities)
+        return list(detected_entities), []
