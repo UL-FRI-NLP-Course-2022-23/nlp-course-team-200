@@ -1,0 +1,2309 @@
+{
+    "Androcles": {
+        "annotations": [
+            "androcles",
+            "lion"
+        ],
+        "detections": [
+            "androcles",
+            "lion",
+            "court"
+        ],
+        "positions": [
+            [
+                [
+                    14,
+                    23
+                ],
+                [
+                    354,
+                    363
+                ],
+                [
+                    540,
+                    549
+                ],
+                [
+                    581,
+                    590
+                ],
+                [
+                    689,
+                    698
+                ],
+                [
+                    904,
+                    913
+                ],
+                [
+                    1081,
+                    1090
+                ],
+                [
+                    1221,
+                    1230
+                ]
+            ],
+            [
+                [
+                    124,
+                    128
+                ],
+                [
+                    211,
+                    215
+                ],
+                [
+                    292,
+                    296
+                ],
+                [
+                    487,
+                    491
+                ],
+                [
+                    571,
+                    575
+                ],
+                [
+                    707,
+                    711
+                ],
+                [
+                    775,
+                    779
+                ],
+                [
+                    965,
+                    969
+                ],
+                [
+                    1321,
+                    1325
+                ]
+            ],
+            [
+                [
+                    867,
+                    872
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+    },
+    "Avaracious_and_Envious": {
+        "annotations": [
+            "avaracious",
+            "envious",
+            "jupiter"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 3
+    },
+    "Belling_the_Cat": {
+        "annotations": [
+            "mice",
+            "cat",
+            "young mouse",
+            "old mouse"
+        ],
+        "detections": [
+            "cat"
+        ],
+        "positions": [
+            [
+                [
+                    117,
+                    120
+                ],
+                [
+                    594,
+                    597
+                ],
+                [
+                    840,
+                    843
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 3
+    },
+    "Hercules_and_the_Waggoner": {
+        "annotations": [
+            "waggoner",
+            "hercules"
+        ],
+        "detections": [
+            "hercules",
+            "waggoner"
+        ],
+        "positions": [
+            [
+                [
+                    361,
+                    369
+                ]
+            ],
+            [
+                [
+                    2,
+                    10
+                ],
+                [
+                    216,
+                    224
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Ant_and_the_Grasshopper": {
+        "annotations": [
+            "grasshopper",
+            "ant"
+        ],
+        "detections": [
+            "grasshopper",
+            "ant"
+        ],
+        "positions": [
+            [
+                [
+                    30,
+                    41
+                ],
+                [
+                    238,
+                    249
+                ],
+                [
+                    559,
+                    570
+                ],
+                [
+                    736,
+                    747
+                ]
+            ],
+            [
+                [
+                    490,
+                    493
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Asss_Brains": {
+        "annotations": [
+            "lion",
+            "fox",
+            "ass"
+        ],
+        "detections": [
+            "lion",
+            "ass",
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    4,
+                    8
+                ],
+                [
+                    48,
+                    52
+                ],
+                [
+                    277,
+                    281
+                ],
+                [
+                    446,
+                    450
+                ],
+                [
+                    594,
+                    598
+                ]
+            ],
+            [
+                [
+                    102,
+                    105
+                ],
+                [
+                    169,
+                    172
+                ]
+            ],
+            [
+                [
+                    17,
+                    20
+                ],
+                [
+                    75,
+                    78
+                ],
+                [
+                    325,
+                    328
+                ],
+                [
+                    469,
+                    472
+                ],
+                [
+                    666,
+                    669
+                ]
+            ]
+        ],
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Ass_and_the_Lapdog": {
+        "annotations": [
+            "farmer",
+            "ass",
+            "lapdog",
+            "servants"
+        ],
+        "detections": [
+            "lapdog",
+            "farmer",
+            "ass"
+        ],
+        "positions": [
+            [
+                [
+                    183,
+                    189
+                ],
+                [
+                    308,
+                    314
+                ],
+                [
+                    392,
+                    398
+                ],
+                [
+                    586,
+                    592
+                ]
+            ],
+            [
+                [
+                    2,
+                    8
+                ],
+                [
+                    167,
+                    173
+                ],
+                [
+                    272,
+                    278
+                ],
+                [
+                    462,
+                    468
+                ],
+                [
+                    598,
+                    604
+                ],
+                [
+                    702,
+                    708
+                ],
+                [
+                    757,
+                    763
+                ]
+            ],
+            [
+                [
+                    652,
+                    655
+                ],
+                [
+                    832,
+                    835
+                ]
+            ]
+        ],
+        "tp": 3,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Ass_in_the_Lions_Skin": {
+        "annotations": [
+            "ass",
+            "fox"
+        ],
+        "detections": [
+            "lion",
+            "fox",
+            "ass"
+        ],
+        "positions": [
+            [
+                [
+                    20,
+                    24
+                ]
+            ],
+            [
+                [
+                    401,
+                    404
+                ]
+            ],
+            [
+                [
+                    199,
+                    202
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+    },
+    "The_Bald_Man_and_the_Fly": {
+        "annotations": [
+            "bald man",
+            "fly"
+        ],
+        "detections": [
+            "fly",
+            "man",
+            "_whack_"
+        ],
+        "positions": [
+            [
+                [
+                    260,
+                    263
+                ]
+            ],
+            [
+                [
+                    297,
+                    300
+                ]
+            ],
+            [
+                [
+                    207,
+                    214
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 2,
+        "fn": 1
+    },
+    "The_Bat_the_Birds_and_the_Beasts": {
+        "annotations": [
+            "birds",
+            "beasts",
+            "bat"
+        ],
+        "detections": [
+            "bird",
+            "birds",
+            "bat"
+        ],
+        "positions": [
+            [
+                [
+                    344,
+                    348
+                ]
+            ],
+            [
+                [
+                    51,
+                    56
+                ],
+                [
+                    154,
+                    159
+                ],
+                [
+                    443,
+                    448
+                ]
+            ],
+            [
+                [
+                    121,
+                    124
+                ],
+                [
+                    427,
+                    430
+                ],
+                [
+                    662,
+                    665
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Belly_and_the_Members": {
+        "annotations": [
+            "belly",
+            "hands",
+            "mouth",
+            "teeth",
+            "legs"
+        ],
+        "detections": [
+            "mouth",
+            "belly",
+            "legs",
+            "the members of the body",
+            "hands"
+        ],
+        "positions": [
+            [
+                [
+                    325,
+                    330
+                ],
+                [
+                    531,
+                    536
+                ]
+            ],
+            [
+                [
+                    94,
+                    99
+                ],
+                [
+                    210,
+                    215
+                ]
+            ],
+            [
+                [
+                    572,
+                    576
+                ]
+            ],
+            [
+                [
+                    28,
+                    51
+                ]
+            ],
+            [
+                [
+                    289,
+                    294
+                ]
+            ]
+        ],
+        "tp": 4,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Buffoon_and_the_Countryman": {
+        "annotations": [
+            "buffoon",
+            "countryman",
+            "spectators"
+        ],
+        "detections": [
+            "buffoon",
+            "countryman"
+        ],
+        "positions": [
+            [
+                [
+                    30,
+                    37
+                ]
+            ],
+            [
+                [
+                    230,
+                    240
+                ],
+                [
+                    420,
+                    430
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Bundle_of_Sticks": {
+        "annotations": [
+            "old man",
+            "sons"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Cat_Maiden": {
+        "annotations": [
+            "jupiter",
+            "venus",
+            "cat",
+            "maiden"
+        ],
+        "detections": [
+            "venus",
+            "jupiter",
+            "cat"
+        ],
+        "positions": [
+            [
+                [
+                    118,
+                    123
+                ],
+                [
+                    343,
+                    348
+                ],
+                [
+                    484,
+                    489
+                ],
+                [
+                    650,
+                    655
+                ]
+            ],
+            [
+                [
+                    94,
+                    101
+                ],
+                [
+                    160,
+                    167
+                ],
+                [
+                    331,
+                    338
+                ]
+            ],
+            [
+                [
+                    177,
+                    180
+                ],
+                [
+                    423,
+                    426
+                ]
+            ]
+        ],
+        "tp": 3,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Cock_and_the_Pearl": {
+        "annotations": [
+            "cock",
+            "pearl"
+        ],
+        "detections": [
+            "master cock",
+            "pearl"
+        ],
+        "positions": [
+            [
+                [
+                    327,
+                    338
+                ]
+            ],
+            [
+                [
+                    243,
+                    248
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Crow_and_the_Pitcher": {
+        "annotations": [
+            "crow",
+            "pitcher"
+        ],
+        "detections": [
+            "crow",
+            "pitcher"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    6
+                ],
+                [
+                    99,
+                    103
+                ]
+            ],
+            [
+                [
+                    43,
+                    50
+                ],
+                [
+                    139,
+                    146
+                ],
+                [
+                    455,
+                    462
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Dog_and_the_Shadow": {
+        "annotations": [
+            "dog",
+            "shadow"
+        ],
+        "detections": [
+            "dog"
+        ],
+        "positions": [
+            [
+                [
+                    19,
+                    22
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Dog_and_the_Wolf": {
+        "annotations": [
+            "wolf",
+            "dog"
+        ],
+        "detections": [
+            "dog",
+            "wolf",
+            "house"
+        ],
+        "positions": [
+            [
+                [
+                    404,
+                    407
+                ],
+                [
+                    486,
+                    489
+                ]
+            ],
+            [
+                [
+                    8,
+                    12
+                ],
+                [
+                    320,
+                    324
+                ],
+                [
+                    473,
+                    477
+                ],
+                [
+                    543,
+                    547
+                ],
+                [
+                    862,
+                    866
+                ]
+            ],
+            [
+                [
+                    68,
+                    73
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+    },
+    "The_Dog_in_the_Manger": {
+        "annotations": [
+            "dog",
+            "ox"
+        ],
+        "detections": [
+            "ox",
+            "manger"
+        ],
+        "positions": [
+            [
+                [
+                    122,
+                    124
+                ],
+                [
+                    363,
+                    365
+                ]
+            ],
+            [
+                [
+                    176,
+                    182
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Eagle_and_the_Arrow": {
+        "annotations": [
+            "eagle",
+            "arrow"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Fisher": {
+        "annotations": [
+            "fisher",
+            "fish"
+        ],
+        "detections": [
+            "fish",
+            "fisher"
+        ],
+        "positions": [
+            [
+                [
+                    381,
+                    385
+                ]
+            ],
+            [
+                [
+                    2,
+                    8
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Fisher_and_the_Little_Fish": {
+        "annotations": [
+            "fisher",
+            "little fish"
+        ],
+        "detections": [
+            "fisher"
+        ],
+        "positions": [
+            [
+                [
+                    19,
+                    25
+                ],
+                [
+                    295,
+                    301
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Four_Oxen_and_the_Lion": {
+        "annotations": [
+            "oxen",
+            "lion"
+        ],
+        "detections": [
+            "lion"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    6
+                ],
+                [
+                    392,
+                    396
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_and_the_Cat": {
+        "annotations": [
+            "fox",
+            "cat"
+        ],
+        "detections": [
+            "puss",
+            "cat",
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    677,
+                    681
+                ]
+            ],
+            [
+                [
+                    24,
+                    27
+                ],
+                [
+                    201,
+                    204
+                ],
+                [
+                    334,
+                    337
+                ],
+                [
+                    429,
+                    432
+                ]
+            ],
+            [
+                [
+                    2,
+                    5
+                ],
+                [
+                    466,
+                    469
+                ],
+                [
+                    590,
+                    593
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+    },
+    "The_Fox_and_the_Crow": {
+        "annotations": [
+            "fox",
+            "crow"
+        ],
+        "detections": [
+            "flatter",
+            "the queen of birds",
+            "fox",
+            "wit and wealth",
+            "crow",
+            "reynard"
+        ],
+        "positions": [
+            [
+                [
+                    800,
+                    807
+                ]
+            ],
+            [
+                [
+                    453,
+                    471
+                ]
+            ],
+            [
+                [
+                    2,
+                    5
+                ],
+                [
+                    125,
+                    128
+                ],
+                [
+                    637,
+                    640
+                ]
+            ],
+            [
+                [
+                    849,
+                    863
+                ]
+            ],
+            [
+                [
+                    17,
+                    21
+                ],
+                [
+                    214,
+                    218
+                ],
+                [
+                    478,
+                    482
+                ]
+            ],
+            [
+                [
+                    143,
+                    150
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 4,
+        "fn": 0
+    },
+    "The_Fox_and_the_Goat": {
+        "annotations": [
+            "fox",
+            "goat"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    23,
+                    26
+                ],
+                [
+                    133,
+                    136
+                ],
+                [
+                    202,
+                    205
+                ],
+                [
+                    416,
+                    419
+                ],
+                [
+                    567,
+                    570
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_and_the_Grapes": {
+        "annotations": [
+            "fox",
+            "grapes"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    23,
+                    26
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_and_the_Lion": {
+        "annotations": [
+            "fox",
+            "lion"
+        ],
+        "detections": [
+            "lion",
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    27,
+                    31
+                ],
+                [
+                    281,
+                    285
+                ],
+                [
+                    455,
+                    459
+                ]
+            ],
+            [
+                [
+                    15,
+                    18
+                ],
+                [
+                    253,
+                    256
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Fox_and_the_Mask": {
+        "annotations": [
+            "fox",
+            "mask"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    5
+                ],
+                [
+                    254,
+                    257
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_and_the_Mosquitoes": {
+        "annotations": [
+            "fox",
+            "mosquitoes",
+            "hedgehog"
+        ],
+        "detections": [
+            "hedgehog",
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    411,
+                    419
+                ]
+            ],
+            [
+                [
+                    2,
+                    5
+                ],
+                [
+                    232,
+                    235
+                ],
+                [
+                    431,
+                    434
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_and_the_Stork": {
+        "annotations": [
+            "fox",
+            "stork"
+        ],
+        "detections": [
+            "stork",
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    28,
+                    33
+                ],
+                [
+                    110,
+                    115
+                ],
+                [
+                    245,
+                    250
+                ],
+                [
+                    441,
+                    446
+                ],
+                [
+                    570,
+                    575
+                ],
+                [
+                    861,
+                    866
+                ]
+            ],
+            [
+                [
+                    16,
+                    19
+                ],
+                [
+                    94,
+                    97
+                ],
+                [
+                    212,
+                    215
+                ],
+                [
+                    368,
+                    371
+                ],
+                [
+                    549,
+                    552
+                ],
+                [
+                    716,
+                    719
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Fox_the_Cock_and_the_Dog": {
+        "annotations": [
+            "fox",
+            "cock",
+            "dog"
+        ],
+        "detections": [
+            "king lion",
+            "lion",
+            "cock",
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    844,
+                    853
+                ]
+            ],
+            [
+                [
+                    192,
+                    196
+                ]
+            ],
+            [
+                [
+                    180,
+                    184
+                ],
+                [
+                    356,
+                    360
+                ]
+            ],
+            [
+                [
+                    22,
+                    25
+                ],
+                [
+                    531,
+                    534
+                ],
+                [
+                    634,
+                    637
+                ],
+                [
+                    802,
+                    805
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 2,
+        "fn": 1
+    },
+    "The_Fox_Without_a_Tail": {
+        "annotations": [
+            "fox",
+            "foxes"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [
+            [
+                [
+                    19,
+                    22
+                ],
+                [
+                    392,
+                    395
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Frogs_Desiring_a_King": {
+        "annotations": [
+            "frogs",
+            "jove",
+            "log",
+            "stork"
+        ],
+        "detections": [
+            "king log",
+            "jove",
+            "frogs",
+            "mighty jove"
+        ],
+        "positions": [
+            [
+                [
+                    1120,
+                    1128
+                ]
+            ],
+            [
+                [
+                    310,
+                    314
+                ],
+                [
+                    440,
+                    444
+                ],
+                [
+                    1212,
+                    1216
+                ],
+                [
+                    1307,
+                    1311
+                ]
+            ],
+            [
+                [
+                    4,
+                    9
+                ],
+                [
+                    560,
+                    565
+                ],
+                [
+                    891,
+                    896
+                ]
+            ],
+            [
+                [
+                    347,
+                    358
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 2,
+        "fn": 2
+    },
+    "The_Frog_and_the_Ox": {
+        "annotations": [
+            "frog",
+            "old frog"
+        ],
+        "detections": [
+            "frog",
+            "farmer white",
+            "tush",
+            "ox"
+        ],
+        "positions": [
+            [
+                [
+                    27,
+                    31
+                ],
+                [
+                    254,
+                    258
+                ],
+                [
+                    565,
+                    569
+                ],
+                [
+                    709,
+                    713
+                ]
+            ],
+            [
+                [
+                    275,
+                    287
+                ]
+            ],
+            [
+                [
+                    221,
+                    225
+                ]
+            ],
+            [
+                [
+                    290,
+                    292
+                ],
+                [
+                    638,
+                    640
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 3,
+        "fn": 1
+    },
+    "The_Goose_With_the_Golden_Eggs": {
+        "annotations": [
+            "countryman",
+            "goose"
+        ],
+        "detections": [
+            "goose"
+        ],
+        "positions": [
+            [
+                [
+                    46,
+                    51
+                ],
+                [
+                    493,
+                    498
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Hares_and_the_Frogs": {
+        "annotations": [
+            "hares",
+            "horses",
+            "frogs"
+        ],
+        "detections": [
+            "hares"
+        ],
+        "positions": [
+            [
+                [
+                    4,
+                    9
+                ],
+                [
+                    241,
+                    246
+                ],
+                [
+                    476,
+                    481
+                ],
+                [
+                    548,
+                    553
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Hare_and_the_Tortoise": {
+        "annotations": [
+            "hare",
+            "tortoise"
+        ],
+        "detections": [
+            "plodding",
+            "hare",
+            "tortoise"
+        ],
+        "positions": [
+            [
+                [
+                    766,
+                    774
+                ]
+            ],
+            [
+                [
+                    4,
+                    8
+                ],
+                [
+                    269,
+                    273
+                ],
+                [
+                    443,
+                    447
+                ],
+                [
+                    622,
+                    626
+                ]
+            ],
+            [
+                [
+                    187,
+                    195
+                ],
+                [
+                    573,
+                    581
+                ],
+                [
+                    658,
+                    666
+                ],
+                [
+                    755,
+                    763
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+    },
+    "The_Hare_With_Many_Friends": {
+        "annotations": [
+            "hare",
+            "horse",
+            "bull",
+            "goat",
+            "ram",
+            "calf",
+            "hounds"
+        ],
+        "detections": [
+            "hare",
+            "the ram"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    6
+                ],
+                [
+                    1009,
+                    1013
+                ],
+                [
+                    1273,
+                    1277
+                ]
+            ],
+            [
+                [
+                    847,
+                    854
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 1,
+        "fn": 6
+    },
+    "The_Hart_and_the_Hunter": {
+        "annotations": [
+            "hart",
+            "hunter"
+        ],
+        "detections": [
+            "hunter",
+            "hart"
+        ],
+        "positions": [
+            [
+                [
+                    282,
+                    288
+                ],
+                [
+                    434,
+                    440
+                ],
+                [
+                    583,
+                    589
+                ]
+            ],
+            [
+                [
+                    4,
+                    8
+                ],
+                [
+                    356,
+                    360
+                ],
+                [
+                    635,
+                    639
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Hart_in_the_Ox_Stall": {
+        "annotations": [
+            "hart",
+            "hunters",
+            "stable boys",
+            "master"
+        ],
+        "detections": [
+            "hart"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    6
+                ],
+                [
+                    225,
+                    229
+                ],
+                [
+                    615,
+                    619
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Horse_and_the_Ass": {
+        "annotations": [
+            "horse",
+            "ass"
+        ],
+        "detections": [
+            "horse",
+            "ass"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    7
+                ],
+                [
+                    49,
+                    54
+                ],
+                [
+                    316,
+                    321
+                ]
+            ],
+            [
+                [
+                    97,
+                    100
+                ],
+                [
+                    391,
+                    394
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Horse_Hunter_and_Stag": {
+        "annotations": [
+            "horse",
+            "stag",
+            "hunter"
+        ],
+        "detections": [
+            "stag",
+            "horse",
+            "hunter"
+        ],
+        "positions": [
+            [
+                [
+                    47,
+                    51
+                ],
+                [
+                    122,
+                    126
+                ],
+                [
+                    558,
+                    562
+                ]
+            ],
+            [
+                [
+                    33,
+                    38
+                ],
+                [
+                    60,
+                    65
+                ],
+                [
+                    421,
+                    426
+                ]
+            ],
+            [
+                [
+                    76,
+                    82
+                ],
+                [
+                    132,
+                    138
+                ],
+                [
+                    461,
+                    467
+                ],
+                [
+                    580,
+                    586
+                ],
+                [
+                    684,
+                    690
+                ]
+            ]
+        ],
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Jay_and_the_Peacock": {
+        "annotations": [
+            "jay",
+            "peacocks",
+            "jays"
+        ],
+        "detections": [
+            "peacocks",
+            "jay",
+            "jays"
+        ],
+        "positions": [
+            [
+                [
+                    34,
+                    42
+                ],
+                [
+                    116,
+                    124
+                ],
+                [
+                    209,
+                    217
+                ]
+            ],
+            [
+                [
+                    2,
+                    5
+                ],
+                [
+                    356,
+                    359
+                ]
+            ],
+            [
+                [
+                    405,
+                    409
+                ]
+            ]
+        ],
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Lions_Share": {
+        "annotations": [
+            "lion",
+            "fox",
+            "jackal",
+            "wolf",
+            "stag"
+        ],
+        "detections": [
+            "lion",
+            "humph",
+            "stag",
+            "king of beasts",
+            "fox",
+            "wolf"
+        ],
+        "positions": [
+            [
+                [
+                    4,
+                    8
+                ],
+                [
+                    254,
+                    258
+                ],
+                [
+                    329,
+                    333
+                ]
+            ],
+            [
+                [
+                    661,
+                    666
+                ]
+            ],
+            [
+                [
+                    133,
+                    137
+                ]
+            ],
+            [
+                [
+                    444,
+                    458
+                ]
+            ],
+            [
+                [
+                    44,
+                    47
+                ],
+                [
+                    682,
+                    685
+                ]
+            ],
+            [
+                [
+                    69,
+                    73
+                ]
+            ]
+        ],
+        "tp": 4,
+        "fp": 2,
+        "fn": 1
+    },
+    "The_Lion_and_the_Mouse": {
+        "annotations": [
+            "lion",
+            "mouse",
+            "hunters",
+            "king"
+        ],
+        "detections": [
+            "lion",
+            "king",
+            "the king of the beasts",
+            "mouse",
+            "o king"
+        ],
+        "positions": [
+            [
+                [
+                    12,
+                    16
+                ],
+                [
+                    101,
+                    105
+                ],
+                [
+                    346,
+                    350
+                ],
+                [
+                    477,
+                    481
+                ],
+                [
+                    725,
+                    729
+                ]
+            ],
+            [
+                [
+                    558,
+                    562
+                ]
+            ],
+            [
+                [
+                    792,
+                    814
+                ]
+            ],
+            [
+                [
+                    37,
+                    42
+                ],
+                [
+                    216,
+                    221
+                ],
+                [
+                    385,
+                    390
+                ],
+                [
+                    659,
+                    664
+                ],
+                [
+                    851,
+                    856
+                ]
+            ],
+            [
+                [
+                    190,
+                    196
+                ]
+            ]
+        ],
+        "tp": 3,
+        "fp": 2,
+        "fn": 1
+    },
+    "The_Man_and_the_Serpent": {
+        "annotations": [
+            "countryman",
+            "serpent"
+        ],
+        "detections": [
+            "countryman",
+            "farmer",
+            "serpent"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    12
+                ]
+            ],
+            [
+                [
+                    297,
+                    303
+                ]
+            ],
+            [
+                [
+                    152,
+                    159
+                ],
+                [
+                    343,
+                    350
+                ],
+                [
+                    658,
+                    665
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+    },
+    "The_Mountains_in_Labour": {
+        "annotations": [
+            "countrymen",
+            "mountains"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Sick_Lion": {
+        "annotations": [
+            "lion",
+            "boar",
+            "bull",
+            "ass"
+        ],
+        "detections": [
+            "lion",
+            "bull"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    6
+                ],
+                [
+                    413,
+                    417
+                ],
+                [
+                    525,
+                    529
+                ],
+                [
+                    603,
+                    607
+                ]
+            ],
+            [
+                [
+                    372,
+                    376
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Swallow_and_the_Other_Birds": {
+        "annotations": [
+            "countryman",
+            "swallow",
+            "birds"
+        ],
+        "detections": [
+            "swallow"
+        ],
+        "positions": [
+            [
+                [
+                    76,
+                    83
+                ],
+                [
+                    179,
+                    186
+                ],
+                [
+                    511,
+                    518
+                ],
+                [
+                    607,
+                    614
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Town_Mouse_and_the_Country_Mouse": {
+        "annotations": [
+            "town mouse",
+            "country mouse",
+            "dogs"
+        ],
+        "detections": [
+            "cousin",
+            "the town mouse",
+            "town\nmouse",
+            "the country mouse"
+        ],
+        "positions": [
+            [
+                [
+                    385,
+                    391
+                ]
+            ],
+            [
+                [
+                    285,
+                    299
+                ],
+                [
+                    727,
+                    741
+                ]
+            ],
+            [
+                [
+                    842,
+                    852
+                ]
+            ],
+            [
+                [
+                    1089,
+                    1106
+                ],
+                [
+                    1177,
+                    1194
+                ],
+                [
+                    1379,
+                    1396
+                ]
+            ]
+        ],
+        "tp": 0,
+        "fp": 4,
+        "fn": 3
+    },
+    "The_Wolf_and_the_Crane": {
+        "annotations": [
+            "wolf",
+            "crane"
+        ],
+        "detections": [
+            "wolf",
+            "crane"
+        ],
+        "positions": [
+            [
+                [
+                    2,
+                    6
+                ],
+                [
+                    435,
+                    439
+                ],
+                [
+                    540,
+                    544
+                ],
+                [
+                    691,
+                    695
+                ],
+                [
+                    780,
+                    784
+                ]
+            ],
+            [
+                [
+                    401,
+                    406
+                ],
+                [
+                    507,
+                    512
+                ],
+                [
+                    680,
+                    685
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Wolf_and_the_Kid": {
+        "annotations": [
+            "kid",
+            "wolf"
+        ],
+        "detections": [
+            "wolf"
+        ],
+        "positions": [
+            [
+                [
+                    67,
+                    71
+                ],
+                [
+                    327,
+                    331
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Wolf_and_the_Lamb": {
+        "annotations": [
+            "lamb",
+            "wolf"
+        ],
+        "detections": [
+            "wolf",
+            "lamb",
+            "lambikin"
+        ],
+        "positions": [
+            [
+                [
+                    19,
+                    23
+                ],
+                [
+                    479,
+                    483
+                ],
+                [
+                    627,
+                    631
+                ]
+            ],
+            [
+                [
+                    106,
+                    110
+                ],
+                [
+                    261,
+                    265
+                ],
+                [
+                    565,
+                    569
+                ],
+                [
+                    718,
+                    722
+                ]
+            ],
+            [
+                [
+                    350,
+                    358
+                ]
+            ]
+        ],
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+    },
+    "The_Woodman_and_the_Serpent": {
+        "annotations": [
+            "woodman",
+            "serpent"
+        ],
+        "detections": [
+            "woodman"
+        ],
+        "positions": [
+            [
+                [
+                    17,
+                    24
+                ],
+                [
+                    536,
+                    543
+                ]
+            ]
+        ],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    }
+}

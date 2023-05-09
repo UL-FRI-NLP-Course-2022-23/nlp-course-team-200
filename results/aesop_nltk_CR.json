@@ -1,0 +1,727 @@
+{
+    "Androcles": {
+        "annotations": [
+            "androcles",
+            "lion"
+        ],
+        "detections": [
+            "court",
+            "androcles"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "Avaracious_and_Envious": {
+        "annotations": [
+            "avaracious",
+            "envious",
+            "jupiter"
+        ],
+        "detections": [
+            "vices",
+            "jupiter"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 2
+    },
+    "Belling_the_Cat": {
+        "annotations": [
+            "mice",
+            "cat",
+            "young mouse",
+            "old mouse"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 4
+    },
+    "Hercules_and_the_Waggoner": {
+        "annotations": [
+            "waggoner",
+            "hercules"
+        ],
+        "detections": [
+            "tut"
+        ],
+        "positions": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 2
+    },
+    "The_Ant_and_the_Grasshopper": {
+        "annotations": [
+            "grasshopper",
+            "ant"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Asss_Brains": {
+        "annotations": [
+            "lion",
+            "fox",
+            "ass"
+        ],
+        "detections": [
+            "wit",
+            "fox",
+            "brains"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 2,
+        "fn": 2
+    },
+    "The_Ass_and_the_Lapdog": {
+        "annotations": [
+            "farmer",
+            "ass",
+            "lapdog",
+            "servants"
+        ],
+        "detections": [
+            "lapdog"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Ass_in_the_Lions_Skin": {
+        "annotations": [
+            "ass",
+            "fox"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Bald_Man_and_the_Fly": {
+        "annotations": [
+            "bald man",
+            "fly"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Bat_the_Birds_and_the_Beasts": {
+        "annotations": [
+            "birds",
+            "beasts",
+            "bat"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Belly_and_the_Members": {
+        "annotations": [
+            "belly",
+            "hands",
+            "mouth",
+            "teeth",
+            "legs"
+        ],
+        "detections": [
+            "hands",
+            "teeth"
+        ],
+        "positions": [],
+        "tp": 2,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Buffoon_and_the_Countryman": {
+        "annotations": [
+            "buffoon",
+            "countryman",
+            "spectators"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Bundle_of_Sticks": {
+        "annotations": [
+            "old man",
+            "sons"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Cat_Maiden": {
+        "annotations": [
+            "jupiter",
+            "venus",
+            "cat",
+            "maiden"
+        ],
+        "detections": [
+            "venus",
+            "see",
+            "jupiter"
+        ],
+        "positions": [],
+        "tp": 2,
+        "fp": 1,
+        "fn": 2
+    },
+    "The_Cock_and_the_Pearl": {
+        "annotations": [
+            "cock",
+            "pearl"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Crow_and_the_Pitcher": {
+        "annotations": [
+            "crow",
+            "pitcher"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Dog_and_the_Shadow": {
+        "annotations": [
+            "dog",
+            "shadow"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Dog_and_the_Wolf": {
+        "annotations": [
+            "wolf",
+            "dog"
+        ],
+        "detections": [
+            "wolf"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Dog_in_the_Manger": {
+        "annotations": [
+            "dog",
+            "ox"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Eagle_and_the_Arrow": {
+        "annotations": [
+            "eagle",
+            "arrow"
+        ],
+        "detections": [
+            "arrow",
+            "eagle"
+        ],
+        "positions": [],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+    },
+    "The_Fisher": {
+        "annotations": [
+            "fisher",
+            "fish"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Fisher_and_the_Little_Fish": {
+        "annotations": [
+            "fisher",
+            "little fish"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Four_Oxen_and_the_Lion": {
+        "annotations": [
+            "oxen",
+            "lion"
+        ],
+        "detections": [
+            "four",
+            "oxen"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Fox_and_the_Cat": {
+        "annotations": [
+            "fox",
+            "cat"
+        ],
+        "detections": [
+            "fox",
+            "miss"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Fox_and_the_Crow": {
+        "annotations": [
+            "fox",
+            "crow"
+        ],
+        "detections": [
+            "fox",
+            "a",
+            "how"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 2,
+        "fn": 1
+    },
+    "The_Fox_and_the_Goat": {
+        "annotations": [
+            "fox",
+            "goat"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_and_the_Grapes": {
+        "annotations": [
+            "fox",
+            "grapes"
+        ],
+        "detections": [
+            "fox",
+            "three"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Fox_and_the_Lion": {
+        "annotations": [
+            "fox",
+            "lion"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_and_the_Mask": {
+        "annotations": [
+            "fox",
+            "mask"
+        ],
+        "detections": [
+            "fox",
+            "a"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Fox_and_the_Mosquitoes": {
+        "annotations": [
+            "fox",
+            "mosquitoes",
+            "hedgehog"
+        ],
+        "detections": [
+            "fox",
+            "a"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 2
+    },
+    "The_Fox_and_the_Stork": {
+        "annotations": [
+            "fox",
+            "stork"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_the_Cock_and_the_Dog": {
+        "annotations": [
+            "fox",
+            "cock",
+            "dog"
+        ],
+        "detections": [
+            "dog",
+            "fox"
+        ],
+        "positions": [],
+        "tp": 2,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Fox_Without_a_Tail": {
+        "annotations": [
+            "fox",
+            "foxes"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Frogs_Desiring_a_King": {
+        "annotations": [
+            "frogs",
+            "jove",
+            "log",
+            "stork"
+        ],
+        "detections": [
+            "jove"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Frog_and_the_Ox": {
+        "annotations": [
+            "frog",
+            "old frog"
+        ],
+        "detections": [
+            "farmer",
+            "bigger",
+            "oxwas"
+        ],
+        "positions": [],
+        "tp": 0,
+        "fp": 3,
+        "fn": 2
+    },
+    "The_Goose_With_the_Golden_Eggs": {
+        "annotations": [
+            "countryman",
+            "goose"
+        ],
+        "detections": [
+            "goose"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    },
+    "The_Hares_and_the_Frogs": {
+        "annotations": [
+            "hares",
+            "horses",
+            "frogs"
+        ],
+        "detections": [
+            "truly"
+        ],
+        "positions": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 3
+    },
+    "The_Hare_and_the_Tortoise": {
+        "annotations": [
+            "hare",
+            "tortoise"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Hare_With_Many_Friends": {
+        "annotations": [
+            "hare",
+            "horse",
+            "bull",
+            "goat",
+            "ram",
+            "calf",
+            "hounds"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 7
+    },
+    "The_Hart_and_the_Hunter": {
+        "annotations": [
+            "hart",
+            "hunter"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Hart_in_the_Ox_Stall": {
+        "annotations": [
+            "hart",
+            "hunters",
+            "stable boys",
+            "master"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 4
+    },
+    "The_Horse_and_the_Ass": {
+        "annotations": [
+            "horse",
+            "ass"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Horse_Hunter_and_Stag": {
+        "annotations": [
+            "horse",
+            "stag",
+            "hunter"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Jay_and_the_Peacock": {
+        "annotations": [
+            "jay",
+            "peacocks",
+            "jays"
+        ],
+        "detections": [
+            "peacocks"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Lions_Share": {
+        "annotations": [
+            "lion",
+            "fox",
+            "jackal",
+            "wolf",
+            "stag"
+        ],
+        "detections": [
+            "fox"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 4
+    },
+    "The_Lion_and_the_Mouse": {
+        "annotations": [
+            "lion",
+            "mouse",
+            "hunters",
+            "king"
+        ],
+        "detections": [
+            "mousea",
+            "mouse"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 3
+    },
+    "The_Man_and_the_Serpent": {
+        "annotations": [
+            "countryman",
+            "serpent"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Mountains_in_Labour": {
+        "annotations": [
+            "countrymen",
+            "mountains"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Sick_Lion": {
+        "annotations": [
+            "lion",
+            "boar",
+            "bull",
+            "ass"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 4
+    },
+    "The_Swallow_and_the_Other_Birds": {
+        "annotations": [
+            "countryman",
+            "swallow",
+            "birds"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 3
+    },
+    "The_Town_Mouse_and_the_Country_Mouse": {
+        "annotations": [
+            "town mouse",
+            "country mouse",
+            "dogs"
+        ],
+        "detections": [
+            "mouse"
+        ],
+        "positions": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 3
+    },
+    "The_Wolf_and_the_Crane": {
+        "annotations": [
+            "wolf",
+            "crane"
+        ],
+        "detections": [
+            "wolf",
+            "a"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+    },
+    "The_Wolf_and_the_Kid": {
+        "annotations": [
+            "kid",
+            "wolf"
+        ],
+        "detections": [],
+        "positions": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+    },
+    "The_Wolf_and_the_Lamb": {
+        "annotations": [
+            "lamb",
+            "wolf"
+        ],
+        "detections": [
+            "nay"
+        ],
+        "positions": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 2
+    },
+    "The_Woodman_and_the_Serpent": {
+        "annotations": [
+            "woodman",
+            "serpent"
+        ],
+        "detections": [
+            "woodman"
+        ],
+        "positions": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 1
+    }
+}
