@@ -1,5 +1,5 @@
 from allennlp.predictors.predictor import Predictor
-from NER.NER import NER
+from src.NER.NER import NER
 import stanza
 
 
@@ -20,5 +20,11 @@ class NerStanza(NER):
             document = self.cr_predictor.coref_resolved(document)
 
         doc = self.NER(document)
-        return list(set(ent.text.lower() for ent in doc.ents if ent.type == 'PERSON'))
+        # return list(set(ent.text.lower() for ent in doc.ents if ent.type == 'PERSON'))
+        detected_characters = list(set(ent.text.lower() for ent in doc.ents if ent.type in ['PERSON', 'ORG']))
+
+        positions = [[(ent.start_char, ent.end_char) for ent in doc.ents if ent.text.lower() == c] for c in
+                     detected_characters]
+
+        return detected_characters, positions
 
