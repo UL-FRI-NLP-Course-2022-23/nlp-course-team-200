@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "old man",
+        "sons"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "old man": {
+            "old man": 0.0,
+            "sons": 0.0
+        },
+        "sons": {
+            "old man": 0.0,
+            "sons": 0.0
+        }
+    }
+}

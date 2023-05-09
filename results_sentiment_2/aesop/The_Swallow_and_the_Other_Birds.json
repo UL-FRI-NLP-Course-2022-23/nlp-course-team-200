@@ -1,0 +1,26 @@
+{
+    "characters": [
+        "countryman",
+        "swallow",
+        "birds"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "countryman": {
+            "countryman": 0.0,
+            "swallow": 1.0,
+            "birds": 1.0
+        },
+        "swallow": {
+            "countryman": 1.0,
+            "swallow": 0.0,
+            "birds": 1.0
+        },
+        "birds": {
+            "countryman": 1.0,
+            "swallow": 1.0,
+            "birds": 0.0
+        }
+    }
+}

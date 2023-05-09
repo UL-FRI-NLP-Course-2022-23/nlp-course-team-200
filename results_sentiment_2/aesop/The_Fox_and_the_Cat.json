@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "fox",
+        "cat"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "fox": {
+            "fox": 0.0,
+            "cat": 1.0
+        },
+        "cat": {
+            "fox": 1.0,
+            "cat": 0.0
+        }
+    }
+}

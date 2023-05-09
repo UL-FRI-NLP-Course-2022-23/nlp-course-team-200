@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "waggoner",
+        "hercules"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "waggoner": {
+            "waggoner": 0.0,
+            "hercules": 1.0
+        },
+        "hercules": {
+            "waggoner": 1.0,
+            "hercules": 0.0
+        }
+    }
+}

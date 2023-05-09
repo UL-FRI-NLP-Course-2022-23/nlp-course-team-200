@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "kid",
+        "wolf"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "kid": {
+            "kid": 0.0,
+            "wolf": 1.0
+        },
+        "wolf": {
+            "kid": 1.0,
+            "wolf": 0.0
+        }
+    }
+}

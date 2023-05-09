@@ -1,0 +1,78 @@
+{
+    "characters": [
+        "hare",
+        "horse",
+        "bull",
+        "goat",
+        "ram",
+        "calf",
+        "hounds"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "hare": {
+            "hare": 0.0,
+            "horse": 0.0,
+            "bull": 0.0,
+            "goat": 0.0,
+            "ram": 0.0,
+            "calf": 1.0,
+            "hounds": 1.0
+        },
+        "horse": {
+            "hare": 0.0,
+            "horse": 0.0,
+            "bull": 0.0,
+            "goat": 0.0,
+            "ram": 0.0,
+            "calf": 0.0,
+            "hounds": 1.0
+        },
+        "bull": {
+            "hare": 0.0,
+            "horse": 0.0,
+            "bull": 0.0,
+            "goat": 0.0,
+            "ram": 0.0,
+            "calf": 0.0,
+            "hounds": 1.0
+        },
+        "goat": {
+            "hare": 0.0,
+            "horse": 0.0,
+            "bull": 0.0,
+            "goat": 0.0,
+            "ram": 0.0,
+            "calf": 0.0,
+            "hounds": 0.0
+        },
+        "ram": {
+            "hare": 0.0,
+            "horse": 0.0,
+            "bull": 0.0,
+            "goat": 0.0,
+            "ram": 0.0,
+            "calf": 0.0,
+            "hounds": 0.0
+        },
+        "calf": {
+            "hare": 1.0,
+            "horse": 0.0,
+            "bull": 0.0,
+            "goat": 0.0,
+            "ram": 0.0,
+            "calf": 0.0,
+            "hounds": 1.0
+        },
+        "hounds": {
+            "hare": 1.0,
+            "horse": 1.0,
+            "bull": 1.0,
+            "goat": 0.0,
+            "ram": 0.0,
+            "calf": 1.0,
+            "hounds": 0.0
+        }
+    }
+}

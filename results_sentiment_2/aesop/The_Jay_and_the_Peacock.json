@@ -1,0 +1,26 @@
+{
+    "characters": [
+        "jay",
+        "peacocks",
+        "jays"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "jay": {
+            "jay": 0.0,
+            "peacocks": 0.0,
+            "jays": 0.0
+        },
+        "peacocks": {
+            "jay": 0.0,
+            "peacocks": 0.0,
+            "jays": 0.0
+        },
+        "jays": {
+            "jay": 0.0,
+            "peacocks": 0.0,
+            "jays": 0.0
+        }
+    }
+}

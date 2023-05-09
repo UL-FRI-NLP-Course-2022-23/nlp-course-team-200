@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "frog",
+        "old frog"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "frog": {
+            "frog": 0.0,
+            "old frog": 0.0
+        },
+        "old frog": {
+            "frog": 0.0,
+            "old frog": 0.0
+        }
+    }
+}

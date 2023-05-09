@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "eagle",
+        "arrow"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "eagle": {
+            "eagle": 0.0,
+            "arrow": 1.0
+        },
+        "arrow": {
+            "eagle": 1.0,
+            "arrow": 0.0
+        }
+    }
+}

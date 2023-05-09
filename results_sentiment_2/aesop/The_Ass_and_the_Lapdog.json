@@ -1,0 +1,36 @@
+{
+    "characters": [
+        "farmer",
+        "ass",
+        "lapdog",
+        "servants"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "farmer": {
+            "farmer": 0.0,
+            "ass": 1.0,
+            "lapdog": 1.0,
+            "servants": 1.0
+        },
+        "ass": {
+            "farmer": 1.0,
+            "ass": 0.0,
+            "lapdog": 0.0,
+            "servants": 0.0
+        },
+        "lapdog": {
+            "farmer": 1.0,
+            "ass": 0.0,
+            "lapdog": 0.0,
+            "servants": 1.0
+        },
+        "servants": {
+            "farmer": 1.0,
+            "ass": 0.0,
+            "lapdog": 1.0,
+            "servants": 0.0
+        }
+    }
+}

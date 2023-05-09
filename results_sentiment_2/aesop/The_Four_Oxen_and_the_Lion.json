@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "oxen",
+        "lion"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "oxen": {
+            "oxen": 0.0,
+            "lion": 1.0
+        },
+        "lion": {
+            "oxen": 1.0,
+            "lion": 0.0
+        }
+    }
+}

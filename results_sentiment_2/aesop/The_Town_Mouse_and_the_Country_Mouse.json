@@ -1,0 +1,26 @@
+{
+    "characters": [
+        "town mouse",
+        "country mouse",
+        "dogs"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "town mouse": {
+            "town mouse": 0.0,
+            "country mouse": 0.0,
+            "dogs": 0.0
+        },
+        "country mouse": {
+            "town mouse": 0.0,
+            "country mouse": 0.0,
+            "dogs": 0.0
+        },
+        "dogs": {
+            "town mouse": 0.0,
+            "country mouse": 0.0,
+            "dogs": 0.0
+        }
+    }
+}

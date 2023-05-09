@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "fisher",
+        "little fish"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "fisher": {
+            "fisher": 0.0,
+            "little fish": 0.0
+        },
+        "little fish": {
+            "fisher": 0.0,
+            "little fish": 0.0
+        }
+    }
+}

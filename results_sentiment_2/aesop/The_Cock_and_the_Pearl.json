@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "cock",
+        "pearl"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "cock": {
+            "cock": 0.0,
+            "pearl": 0.0
+        },
+        "pearl": {
+            "cock": 0.0,
+            "pearl": 0.0
+        }
+    }
+}

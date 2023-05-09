@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "fox",
+        "mask"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "fox": {
+            "fox": 0.0,
+            "mask": 0.0
+        },
+        "mask": {
+            "fox": 0.0,
+            "mask": 0.0
+        }
+    }
+}

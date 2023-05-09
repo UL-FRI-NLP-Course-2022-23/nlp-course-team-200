@@ -1,0 +1,18 @@
+{
+    "characters": [
+        "hart",
+        "hunter"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "hart": {
+            "hart": 0.0,
+            "hunter": 0.0
+        },
+        "hunter": {
+            "hart": 0.0,
+            "hunter": 0.0
+        }
+    }
+}

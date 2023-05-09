@@ -1,0 +1,36 @@
+{
+    "characters": [
+        "mice",
+        "cat",
+        "young mouse",
+        "old mouse"
+    ],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+        "mice": {
+            "mice": 0.0,
+            "cat": 1.0,
+            "young mouse": 0.0,
+            "old mouse": 0.0
+        },
+        "cat": {
+            "mice": 1.0,
+            "cat": 0.0,
+            "young mouse": 0.0,
+            "old mouse": 0.0
+        },
+        "young mouse": {
+            "mice": 0.0,
+            "cat": 0.0,
+            "young mouse": 0.0,
+            "old mouse": 0.0
+        },
+        "old mouse": {
+            "mice": 0.0,
+            "cat": 0.0,
+            "young mouse": 0.0,
+            "old mouse": 0.0
+        }
+    }
+}
