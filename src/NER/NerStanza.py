@@ -1,5 +1,5 @@
 from allennlp.predictors.predictor import Predictor
-from src.NER.NER import NER
+from NER.NER import NER
 import stanza
 
 

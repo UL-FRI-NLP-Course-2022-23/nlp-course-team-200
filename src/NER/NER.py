@@ -87,7 +87,7 @@ class NER:
 
         for i, r in enumerate(results):
             document, annotated_entities = get_fable(self.dataset, r)
-            self.ner_res[i] = NerRes(r, document, annotated_entities, results[r]["detections"], results[r]["positions"])
+            self.ner_res[i] = NerRes(r, document, annotated_entities, results[r]["detections"], results[r]["positions"] if "positions" in results[r] else [])
 
     def visualize_result(self):
         # TODO
