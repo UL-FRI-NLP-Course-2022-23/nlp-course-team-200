@@ -16,7 +16,7 @@ if __name__ == "__main__":
     parser.add_argument("--ner", type=str, default="spacy")
     parser.add_argument("--coreference", type=bool, default=True)
     parser.add_argument("--save_results", type=bool, default=False)
-    parser.add_argument("--sentiment_analysis", type=bool, default=False)
+    parser.add_argument("--sentiment_analysis", type=bool, default=True)
     parser.add_argument("--load_ner_results", type=bool, default=True)
 
     args = parser.parse_args()

@@ -1,6 +1,7 @@
 import os, json
 from nltk.tokenize import sent_tokenize
 from transformers import pipeline
+from visualization import visualize
 
 def get_sentences(document):
     """
@@ -20,7 +21,7 @@ def save_results(ner, fable_sentiments, protagonist, dataset):
     result_sentiments = dict()
 
     # Merge scores to labels
-    for characters, sentiment in fable_sentiments:
+    for characters, sentiment, _ in fable_sentiments:
         if characters not in sentiments:
             sentiments[characters] = {"NEGATIVE": [], "POSITIVE": []}
         
@@ -92,6 +93,7 @@ def sentiment_analysis(ner):
                     entities_in_sentence.append(r.detected_annotations[i])
             
             if len(entities_in_sentence) == 2:
-                fable_sentiments.append((tuple(entities_in_sentence), (sentiment_label, sentiment_score)))
+                fable_sentiments.append((tuple(entities_in_sentence), (sentiment_label, sentiment_score), len(sentence)))
         
         save_results(r, fable_sentiments, protagonist, ner.dataset)
+        visualize(r, fable_sentiments)
