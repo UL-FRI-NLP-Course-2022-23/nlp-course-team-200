@@ -42,4 +42,4 @@ def visualize(r, fable_sentiments):
         draw.text((x + 10, y - 10), c2, fill=(0,0,0), font=font)
 
         # Save the visualization as a PNG image
-        image.save(os.path.join("results", "visualization", f"{c1}_{c2}.png"))
+        image.save(os.path.join("results", "visualization", f"{r.title}_{c1}_{c2}.png"))
